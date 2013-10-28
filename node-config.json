@@ -1,0 +1,19 @@
+{ "capabilities": [
+    {
+        "browserName": "chrome",
+        "platform": "MAC",
+        "maxInstances": 5
+    }
+], "configuration": {
+    "browserTimout": 120,
+    "nodeTimeout": 120,
+    "port": 5555,
+    "hubPort": 4444,
+    "hubHost": "ci.hitta.local",
+    "nodePolling": 2000,
+    "registerCycle": 10000,
+    "register": true,
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "maxSession": 2
+} }
