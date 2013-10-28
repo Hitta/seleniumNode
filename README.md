@@ -1,2 +1,1 @@
-seleniumNode
-============
+$ ./startNode.sh
