@@ -14,4 +14,4 @@ if [ ! -f $CHROMEDRIVER_VERSION$CHROMEDRIVER_NAME ]; then
 	unzip $CHROMEDRIVER_NAME;
 	cd ..;
 fi
-java -jar $SELENIUMSERVER_NAME -role node -nodeConfig node-config.json -Dwebdriver.chrome.driver=$CHROMEDRIVER_VERSIONchromedriver
+java -jar $SELENIUMSERVER_NAME -role node -nodeConfig node-config.json -Dwebdriver.chrome.driver=$CHROMEDRIVER_VERSION"chromedriver"
