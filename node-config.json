@@ -2,12 +2,12 @@
     {
         "browserName": "chrome",
         "platform": "MAC",
-        "maxInstances": 2
+        "maxInstances": 5
     },
     {
         "browserName": "firefox",
         "platform": "MAC",
-        "maxInstances": 2
+        "maxInstances": 5
     }
 ], "configuration": {
     "browserTimout": 120,
@@ -20,5 +20,5 @@
     "register": true,
     "cleanUpCycle": 2000,
     "timeout": 30000,
-    "maxSession": 2
+    "maxSession": 5
 } }
