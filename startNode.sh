@@ -1,8 +1,8 @@
 #!/bin/bash
 SELENIUMSERVER_BASEURL="http://selenium.googlecode.com/files/";
-SELENIUMSERVER_NAME="selenium-server-standalone-2.37.0.jar";
+SELENIUMSERVER_NAME="selenium-server-standalone-2.39.0.jar";
 CHROMEDRIVER_BASEURL="http://chromedriver.storage.googleapis.com/";
-CHROMEDRIVER_VERSION="2.6/";
+CHROMEDRIVER_VERSION="2.9/";
 CHROMEDRIVER_NAME="chromedriver_mac32.zip";
 if [ ! -f $SELENIUMSERVER_NAME ]; then
 	curl -O $SELENIUMSERVER_BASEURL$SELENIUMSERVER_NAME;
