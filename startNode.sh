@@ -1,6 +1,6 @@
 #!/bin/bash
 SELENIUMSERVER_BASEURL="http://selenium.googlecode.com/files/";
-SELENIUMSERVER_NAME="selenium-server-standalone-2.39.0.jar";
+SELENIUMSERVER_NAME="selenium-server-standalone-2.41.0.jar";
 CHROMEDRIVER_BASEURL="http://chromedriver.storage.googleapis.com/";
 CHROMEDRIVER_VERSION="2.9/";
 CHROMEDRIVER_NAME="chromedriver_mac32.zip";
