@@ -1,24 +1,26 @@
-{ "capabilities": [
+{ 
+  "capabilities": [
     {
         "browserName": "chrome",
         "platform": "MAC",
-        "maxInstances": 1
+        "maxInstances": 5,
+	"seleniumProtocol": "WebDriver"
     },
     {
         "browserName": "firefox",
         "platform": "MAC",
-        "maxInstances": 1
+        "maxInstances": 5,
+	"seleniumProtocol": "WebDriver"
     }
-], "configuration": {
-    "browserTimout": 120,
-    "nodeTimeout": 120,
-    "port": 5555,
-    "hubPort": 4444,
-    "hubHost": "ci.hitta.local",
-    "nodePolling": 2000,
-    "registerCycle": 10000,
-    "register": true,
-    "cleanUpCycle": 2000,
-    "timeout": 30000,
-    "maxSession": 2
-} }
+  ], 
+  "browserTimout": 120,
+  "nodeTimeout": 120,
+  "port": 5555,
+  "hub": "http://ci.hitta.schibsted.se:4444",
+  "nodePolling": 2000,
+  "registerCycle": 10000,
+  "register": true,
+  "cleanUpCycle": 2000,
+  "timeout": 30000,
+  "maxSession": 5
+}
