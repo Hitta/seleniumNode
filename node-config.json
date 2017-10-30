@@ -16,7 +16,7 @@
   "browserTimout": 120,
   "nodeTimeout": 120,
   "port": 5555,
-  "hub": "http://ci.hitta.schibsted.se:4444",
+  "hub": "http://10.77.38.10:4444",
   "nodePolling": 2000,
   "registerCycle": 10000,
   "register": true,
